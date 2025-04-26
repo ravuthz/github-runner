@@ -3,7 +3,7 @@
 REPO=$REPO
 TOKEN=$TOKEN
 
-cd /home/runner/actions-runner
+cd /home/docker/actions-runner
 
 ./config.sh --url https://github.com/${REPO} --token ${TOKEN}
 
