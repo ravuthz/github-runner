@@ -2,9 +2,7 @@ services:
   runner:
     build: .
     restart: always
-    environment:
-      - REPO="<user>/<repo>"
-      - TOKEN="<token>"
+    env_file: .env
     deploy:
       mode: replicated
       replicas: 4
