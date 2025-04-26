@@ -3,8 +3,8 @@ services:
     build: .
     restart: always
     environment:
-      - REPO="ravuthz/laravel-crud-api"
-      - TOKEN="ACVQJUXL4QEK53D5VE3ALATIBSQRM"
+      - REPO="<user>/<repo>"
+      - TOKEN="<token>"
     deploy:
       mode: replicated
       replicas: 4
